@@ -3,7 +3,7 @@ Modificações realizadas:
 - Alguns menus alterados com redirecionamento de links;
 - Adicionado comportamento para o formulário com js (validação);
 - Alterações de textos e imagens;
-- Criação de novo arquivo html com js que consome uma api do site https://www.mercadobitcoin.net;
+- Criação de novo arquivo html com js que consome uma api do site https://www.blockchain.info;
 
 Como modelo inicial foi ultilizado um template da web cujos detalhes estão descritos a seguir:
 
