@@ -1,0 +1,18 @@
+#buscaInformacao{ 
+	text-align: center 
+}
+
+ .titulo{
+ 	text-align: center;
+ }
+ 
+body {
+ background-image: 
+ linear-gradient(to right, rgba(245, 246, 252, 0.52), rgba(117 , 19, 93, 0.73)),
+ url('images/bitcoin.jpg');
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-attachment:fixed;
+ background-size: cover;
+ color: white;
+}

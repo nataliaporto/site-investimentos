@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<meta charset="UTF-8">
+	<title> Mercado Bitcoin </title>
+	<link rel="stylesheet" href="mercado_bitcoin_style.css">
+
+</head>
+<body>
+
+	<h1 class="titulo"> Cotação Bitcoin</h1>
+	<h2 class="titulo"> Escolha o valor e a moeda a ser convertida para BTC</h2>
+
+	<form>
+		<div id="buscaInformacao">
+			<label>Valor a converter:
+			<input id="valorDinheiro" type="text"> </label>
+			<select id="moedas">
+				<option value="BRL">REAL</option>
+                <option value="USD">DOLAR</option>
+				<option value="EUR">EURO</option>
+			</select>
+			<input type="submit" value="Converter para Bitcoin" onclick="buscaInfo()">
+		</div>
+	</form>	
+
+	<div id="plano_fundo">
+
+	</div>
+
+	<script src="assets/js/mercado_bitcoin.js"></script>
+
+</body>
+</html>
